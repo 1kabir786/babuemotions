@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding-bottom: 30px;
+}
+
+
+h1 {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+
+#searchBar {
+  border-color: black;
+  border-radius: 25px;
+  height: 35px;
+  width: 100%;
+  background-color: #f1f1f1;
+  position: fixed;
+ 
+}
+
+
+.content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.sec{
+background-color: lightblue;
+width: 100%;
+height: 300px;
+border: 2px solid black;
+
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .main-nav {
+    flex-wrap: wrap;
+  }
+
+
+}
+.card h1{
+  text-align: center;
+  padding: 0px 0px;
+  color: white;
+  font: bold;
+}
+.container1{
+    
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px solid green;
+  background-color: lightblue;
+}
+.content{
+  flex-basis: 100%;
+   margin: 00px 0px;
+   text-align: center;
+   padding: 0px 0px;
+   background: transparent;
+
+  
+}
+.content h3{
+   padding: 5px 2px;
+   color: black;
+   margin-top: 0px;
+  
+}
+.content p{
+   font-size: 20px;
+   font-weight: 500;
+   padding: 5px;
+   color: green;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.content article{
+   padding: 10px;
+   margin: 5px;
+   text-align: left;
+}
+
+.content button{
+   background: lightcoral;
+   padding: 10px 25px;
+   border: none;
+   color: white;
+   margin: 20px 10px;
+   border-radius: 10px;
+   cursor: pointer;
+   
+
+}
+.image{
+   width: 100%;
+   height: 250px;
+   border-radius: 20%;
+   padding-top: 5px;
+ 
+}
+.content :hover button{
+  color: black;
+  background-color: lightgreen;
+}
+.highlight {
+  background-color: yellow;
+}
+.feb{
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    margin-right: 30px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color:lightgreen;
+    box-shadow: gray;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   }
+   
+   .feb a{
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: smaller;
+   
+   }
+   .feb1{
+    position: fixed;
+    bottom: 32px;
+    left: 32px;
+    margin-right: 30px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color:lightgreen;
+    box-shadow: gray;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   }
+   
+   .feb1 a{
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: smaller;
+   
+   }
+
+
+</style>
+
+
+</head>
+<body>      
+            <input type="text" name="" id="searchBar" placeholder="search here...." onkeyup="search()">
+          
+            <div class="feb">
+                <a href="fashion.html"><p>Fashion and Lifestyle</p></a>
+            </div>
+            <div class="feb1">    
+                <a href="skills.html"><p>Learn SKILLS</p></a>
+            </div>         
+
+  <!-- Rest of the content -->
+  <div class="card">
+    <div class="container1">
+        <div class="content">
+            <img src="" class="image">
+            <h3>Chapter 1: Introduction to Health and Well-being</h3>
+            <p>Lesson 1: What is health? Understanding physical, mental, and social well-being.</p>
+            <article>Regular Exercise: Engage in physical activities, as exercise has been linked to improved brain health and cognitive function.</article>
+            <a href="https://youtu.be/c430QuYyCiI " target="_blank"><button>Watch Video</button></a>
+            <a href="https://youtu.be/0wy7w6f6Gyk " target="_blank"><button>Watch video</button></a>
+        </div>
+    </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 1</h3>
+          <p>Lesson 2: The importance of a healthy lifestyle in overall well-being.</p>
+          <article>Balanced Nutrition: Consume a balanced diet rich in nutrients, including omega-3 fatty acids, antioxidants, and vitamins, to support brain health.</article>
+          <a href="https://youtu.be/EYl61EnVvBo " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/68M1c8fdZh8 " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 1</h3>
+          <p>Lesson 3: Identifying the impact of health on the quality of life and productivity.</p>
+          <article>Mental Stimulation: Challenge your brain with puzzles, games, reading, learning new skills, or pursuing hobbies that require cognitive engagement.</article>
+          <a href="https://youtu.be/NEdFFRvBwvk " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/I8Y962VTiBY " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 2: Nutrition and Diets</h3>
+          <p>Lesson 1: Basics of nutrition and the three main macronutrients (carbohydrates, proteins, fats).</p>
+          <article>Quality Sleep: Prioritise getting enough restful sleep, as sleep plays a crucial role in memory consolidation and overall brain health.</article>
+          <a href="https://youtu.be/TOPywzthZZ4 " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/nWwrVB592Do " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 2</h3>
+          <p>Lesson 2: Understanding micronutrients (vitamins and minerals) and their roles in the body.</p>
+          <article>Stress Management: Practise stress-reducing techniques like mindfulness, meditation, or yoga, as chronic stress can negatively impact brain function.</article>
+          <a href="https://youtu.be/09orKVRxiPo " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/Pa_xX_64AIs " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 2</h3>
+          <p>Lesson 3: Exploring different types of diets (e.g., Mediterranean, vegetarian, ketogenic).</p>
+          <article>Social Interaction: Maintain social connections and engage in meaningful conversations, as social interactions can positively influence cognitive abilities.</article>
+          <a href="https://youtu.be/zIDDyuI2kKc " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/CjL41H_Dz4k " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 2</h3>
+          <p>Lesson 4: Planning balanced meals and healthy eating habits.</p>
+          <article>Continuous Learning: Stay curious and open to new experiences, as lifelong learning can keep your brain active and adaptable.</article>
+          <a href="https://youtu.be/4YFpCIP8I1U " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/cpdpGNxkmx8 " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 3: Physical Activity and Exercise</h3>
+          <p>Lesson 1: Benefits of regular physical activity and exercise on health.</p>
+          <article>Limit Alcohol and Substance Use: Excessive alcohol and substance use can harm brain function, so it's essential to use them in moderation.</article>
+          <a href="https://youtu.be/AVY7PZu-kIk " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/H3v0h8fU_DI " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 3 </h3>
+          <p>Lesson 2: Types of exercises and their effects on different aspects of health.</p>
+          <article>Avoid Smoking: Smoking can have detrimental effects on brain health and should be avoided..</article>
+          <a href="https://youtu.be/y9RyLl1obFE " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/Ffp1OxmF3nM " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 3 </h3>
+          <p>Lesson 3: Creating a personalised exercise routine and setting fitness goals.</p>
+          <article>Manage Chronic Health Conditions: Address and manage chronic health conditions like hypertension, diabetes, and others, as they can impact brain health.</article>
+          <a href="https://youtu.be/5iHQDUvR_vc " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/uW4REb7GadE " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 4: Mental Health and Stress Management</h3>
+          <p>Lesson 1: Recognizing the importance of mental health in overall well-being.</p>
+          <a href="https://youtu.be/Nlz8yKG0ySU " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/eKBJJtszpWc " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 4</h3>
+          <p>Lesson 2: Coping with stress and anxiety through various techniques</p>
+          <a href="https://youtu.be/UsnJvYq-2BM " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/GIvsZQaMPWo " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 4</h3>
+          <p>Lesson 3: Building resilience and promoting positive mental health.</p>
+          <a href="https://youtu.be/swkpcuByU98 " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/albHfO-UH-A " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 5</h3>
+          <p>Lesson 2: Importance of regular health check-ups and screenings.</p>
+          <a href="https://youtu.be/2yLaA4OGvz8 " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/W4Wx3pCDQVA " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 5</h3>
+          <p>Lesson 3: Implementing preventive measures for specific health conditions.</p>
+          <a href="https://youtu.be/TWfPg_Xia5Y " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/jQ5zcVRXkVE " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 6: Common Health Conditions</h3>
+          <p>Lesson 1: Overview of common health issues (e.g., obesity, diabetes, cardiovascular diseases).</p>
+          <a href="https://youtu.be/vkG1RQNaKAI " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/6ibcPaobR6o " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 6</h3>
+          <p>Lesson 2: Risk factors, symptoms, and preventive strategies for various health conditions.</p>
+          <a href="https://youtu.be/Lq-7biKvSow " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/0wy7w6f6Gyk " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 6</h3>
+          <p>Lesson 3: Strategies for managing chronic illnesses and improving overall health.</p>
+          <a href="https://youtu.be/Ap1FXfy91d4 " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/qNd2pX0JLT4 " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 7: Health Insurance and Financial Planning</h3>
+          <p>Lesson 1: Introduction to health insurance and its importance.</p>
+          <a href="https://youtu.be/Rie2MvV5nCk " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/z6XAZve99xY " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 7</h3>
+          <p>Lesson 2: Different types of health insurance plans (e.g., HMO, PPO, Medicare, Medicaid).</p>
+          <a href="https://youtu.be/JfS2ssrTN_A " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/C9fRp77FGcg " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 7</h3>
+          <p>Lesson 3: Understanding health insurance coverage and managing healthcare costs.</p>
+          <a href="https://youtu.be/DBTmNm8D-84 " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/L_SmHRtSX5g " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 8: Family Health and Wellness</h3>
+          <p>Lesson 1: Promoting health and well-being within the family.</p>
+          <a href="https://youtu.be/3cX4IQ2sVEA " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/cb5fmH5ffTE " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 8</h3>
+          <p>Lesson 2: Family planning and maternal health.</p>
+          <a href="https://youtu.be/gWAisP_1wNo " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/RYOBlDxAvDQ " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 8</h3>
+          <p>Lesson 3: Addressing health challenges unique to different family members.</p>
+          <a href="https://youtu.be/DANdcHpXYCA " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/fnQxSxQkSYc " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 9: Healthy Aging and Senior Care</h3>
+          <p>Lesson 1: Understanding the aging process and its effects on health.</p>
+          <a href="https://youtu.be/OphFuhUq6Ks " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/Z5Kb3YgdG1E " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 9</h3>
+          <p>Lesson 2: Senior care options and considerations</p>
+          <a href="https://youtu.be/-xvbiPQIffk " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/-cBgjfo_ayI " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 9</h3>
+          <p>Lesson 3: Promoting healthy ageing through lifestyle choices.</p>
+          <a href="https://youtu.be/EYl61EnVvBo " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/eLfAXIapxbs " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 10: Public Health and Global Perspectives</h3>
+          <p>Lesson 1: Introduction to public health and its importance in society.</p>
+          <a href="https://youtu.be/t_eWESXTnic " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/Yp7tiFnIBQY " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 10</h3>
+          <p>Lesson 2: Global health challenges and initiatives.</p>
+          <a href="https://youtu.be/VpWOXelBc0I " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/oV3kX1W9h64 " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+<div class="card">
+  <div class="container1">
+      <div class="content">
+          <img src="" class="image">
+          <h3>Chapter 10</h3>
+          <p>Lesson 3: Role of individuals in promoting public health.</p>
+          <article>Make a personalised health plan based on the knowledge gained throughout the course. The plan should include diet, exercise, stress management, preventive measures, and health insurance considerations.</article>
+          <a href="https://youtu.be/G2quVLcJVBk " target="_blank"><button>Watch Video</button></a>
+          <a href="https://youtu.be/pixqC02Ve4c " target="_blank"><button>Watch video</button></a>
+      </div>
+  </div>
+</div>
+
+<script>
+
+function search() {
+  let input = document.getElementById('searchBar').value
+input=input.toLowerCase();
+let x = document.getElementsByClassName('card');
+
+for (i = 0; i < x.length; i++) { 
+  if (!x[i].innerHTML.toLowerCase().includes(input)) {
+      x[i].style.display="none";
+  }
+  else {
+      x[i].style.display="list-item";                 
+  }
+}
+}
+
+
+
+function toggleAudio() {
+  const audioBtn = document.querySelector(".audio-btn");
+  const searchBar = document.getElementById("searchBar");
+
+  if (audioBtn.classList.contains("active")) {
+    // Stop audio recording or processing here
+    audioBtn.classList.remove("active");
+    searchBar.removeAttribute("disabled");
+  } else {
+    // Start audio recording or processing here
+    audioBtn.classList.add("active");
+    searchBar.setAttribute("disabled", "disabled");
+  }
+}
+const audioButton = document.querySelector(".audio-btn");
+audioButton.addEventListener("click", toggleAudio);
+
+
+const searchBar = document.getElementById('searchBar');
+
+searchBar.addEventListener('input', () => {
+    const searchTerm = searchBar.value.toLowerCase();
+    const content = document.querySelectorAll('.content');
+
+    content.forEach(content => {
+        const elementsToHighlight = content.querySelectorAll('h3, p, article');
+
+        elementsToHighlight.forEach(element => {
+            const elementText = element.textContent.toLowerCase();
+            if (elementText.includes(searchTerm)) {
+                highlightText(element, searchTerm);
+            } else {
+                unhighlightText(element);
+            }
+        });
+    });
+});
+
+function highlightText(element, searchTerm) {
+    const regex = new RegExp(searchTerm, 'gi');
+    const highlightedText = element.textContent.replace(regex, match => `<span class="highlight">${match}</span>`);
+    element.innerHTML = highlightedText;
+}
+
+function unhighlightText(element) {
+    element.innerHTML = element.textContent;
+}
+
+
+
+
+</script>
+</body>
+</html>
